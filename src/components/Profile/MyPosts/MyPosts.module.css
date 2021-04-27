@@ -1,0 +1,95 @@
+
+.button{
+  padding: 7px;
+  margin-left: 478px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  color: #39383A;
+  background: none;
+
+}
+
+.item img{
+  width: 70px;
+  border-radius: 50%;
+
+}
+
+.newpost {
+  background: #fafafa;
+  margin-top: 10px;
+  padding: 10px;
+  border:1px solid #e5e5e5;
+}
+
+
+newpost textarea::-webkit-scrollbar {
+  background: #fafafa;
+  width: 4px;
+}
+
+newpost textarea::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+  border-radius: 3px;
+}
+
+
+.newpost textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  height: auto;
+  overflow-y: none;
+  outline: none;
+  padding: 5px;
+  max-height: 300px;
+  background: #fafafa;
+}
+
+.send {
+  background: #507299;
+  color: #fafafa;
+}
+.send:hover{
+  background: #486991;
+  color: #fafafa;
+}
+.send:active{
+  background: #507299;
+  color: #fafafa;
+}
+
+.send:disabled {
+  background: #e5e5e5;
+}
+
+.createnewpost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createnewpost span {
+  font-weight: lighter;
+}
+
+
+
+
+@media (max-width: 635px){
+  .newpost{
+    margin-top: 1px;
+  }
+
+  .newpost textarea {
+    max-height: 50px;
+  }
+}
+
+
+@media (max-width: 635px) {
+  .newpost input {
+    width: 65%;
+  }
+}

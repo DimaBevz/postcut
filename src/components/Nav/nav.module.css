@@ -1,0 +1,94 @@
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation ul a {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     box-sizing: border-box;
+     background: #fafafa;
+     padding: 30px;
+     flex-basis: 50%;
+     border: 1px solid #E5E5E5;
+}
+
+
+.navigation h2 {
+    background: #fafafa;
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px;
+    font-weight: normal;
+}
+
+nav li span {
+    font-size: 13px;
+}
+.activeLink  {
+  color: #507299;
+}
+
+
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #6494D2;
+}
+nav a:active{
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+
+.friends{
+    background: #fafafa;
+    border: 1px solid #E5E5E5;
+    margin-top: 10px;
+}
+
+.friends h3 {
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 7px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.friends ul li {
+    height: 50px;
+    width: 50px;
+    background: #E5E5E5;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+
+
+.friends img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+
+}
+
+.photos ul {
+padding: 9px;
+}
+
+.photos ul li {
+    border-radius: 0px;
+    margin: 1px;
+    height: 72px;
+    width: 72px;
+    display: inline-block;
+
+
+}
+
+.photos img {
+    border-radius: 0px;
+}
+

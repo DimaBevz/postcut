@@ -1,0 +1,146 @@
+.dialogWithUser ul {
+    margin-top: 20px;
+}
+
+.dialogWithUser {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    flex-basis: 70%;
+    position: relative;
+}
+
+.dialogHeader h3 {
+    font-weight: normal;
+}
+
+.createNewMessage {
+    border-top: 1px solid #e5e5e5;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogHeader .Dialogavatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dialogHeader .status {
+    font-size: 11px;
+}
+
+.dialogHeader a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dialogHeader h3 {
+    text-transform: none;
+}
+
+.dialogHeader{
+    position: relative;
+    background: #fafafa;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: lighter;
+}
+
+.backToDialogList{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.backToDialogList a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.backToDialogList svg {
+    margin-right: 5px;
+    font-size: 1em;
+    font-size: 20px;
+}
+
+.backToDialogList span{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.createNewMessage {
+    display: flex;
+}
+
+.createNewMessage textarea {
+    flex-grow: 1;
+    padding: 5px 0px 1px 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: Calibri, sans-serif;
+    background: #fafafa;
+}
+
+@media (max-width: 635px) {
+    .createNewMessage input {
+        width: 50%;
+    }
+
+    .createNewMessage {
+        position: fixed;
+        bottom: 53px;
+        left: 0;
+        width: 100%;
+        background: #fafafa;
+        padding: 8px 0px 0px 3px;
+        border-top: 1px solid #e5e5e5;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dialogHeader {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #fafafa;
+        padding: 5px 7px;
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    .dialogHeader .Dialogavatar {
+        height: 30px;
+        width: 30px;
+    }
+
+    .dialogHeader h3 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .backToDialogList {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+
+    .backToDialogList a svg{
+        font-size: 11px;
+    }
+
+    .dialogHeader .status {
+        font-size: 10px;
+    }
+
+}
+
+

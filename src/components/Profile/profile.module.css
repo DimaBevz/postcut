@@ -1,0 +1,217 @@
+.information{
+  padding: 15px;
+  background: #fafafa;
+  position: relative;
+  border:1px solid #E5E5E5;
+}
+
+.avatarWrap {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: -110px;
+  left: 20px;
+}
+
+.changeAvatarContainer {
+  position: relative;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+}
+
+.avatar{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.changeAvatar {
+  width: 130px;
+  padding: 3px 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  z-index: 990;
+  transition: all .5s ease-in;
+  color: #fff;
+  cursor: pointer;
+}
+
+.changeAvatarContainer:hover .changeAvatar {
+  bottom: 0
+}
+
+.AvatarControl {
+  text-align: center;
+}
+
+.AvatarControl svg{
+  color: #fff;
+  font-size: 22px;
+  margin-right: 2px;
+}
+
+.AvatarControl label {
+  padding: 0 0 10px 0;
+  cursor: pointer;
+  transition: all ease-in-out .1s;
+}
+
+.information h2{
+  font-size: 28px;
+  padding: 10px 0px 5px 0px;
+  font-weight: normal;
+}
+
+
+.about li {
+  padding: 13px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+.about li:last-child {
+  border-bottom: none;
+}
+
+.about li:first-child {
+  padding-top: 5px;
+}
+
+.contacts {
+  margin-top: 10px;
+}
+
+.contacts ul {
+  display: flex;
+}
+
+.contacts ul li {
+  padding: 5px;
+}
+
+.contacts ul li svg {
+  background: #2B5278;
+  padding: 3px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .2s ease-in;
+
+}
+
+.contacts ul li svg:hover {
+  padding: 5px;
+}
+
+
+.contacts ul li svg:hover {
+  background: #2B5278
+
+}
+
+.photowrap {
+  width: 100%;
+  height: 210px;
+  border:1px solid #E5E5E5;
+  background: url("../../img/images/unnamed.png") ;
+  margin-bottom: 5px;
+}
+
+.button{
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  background: green;
+  color: #fff;
+}
+
+li .infoItem {
+  font-weight: 600;
+  color: #2B5278;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+ .description {
+  font-size: 13px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.Activity {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.Mail{
+  margin-left: 7px;
+}
+
+.Activity .Mail svg {
+  font-size: 1.2em;
+
+}
+
+.Activity  .ActivityButtons {
+  color: #486991;
+  padding: 8px;
+}
+
+.Activity .ActivityButtons:hover{
+  color: #fafafa;
+}
+
+.Activity button{
+  padding: 7px;
+  background: none;
+  border: 1px solid #486991;
+  /*border-radius: 50%;*/
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+  outline: none;
+}
+
+.Activity button:hover svg {
+  color: #fff;
+}
+
+.Activity button:hover{
+  background: #486991;
+}
+.Activity button:active{
+  background: #507299;
+}
+
+
+.Activity button svg {
+  font-size: 22px;
+  color: #2B5278;
+}
+
+.Activity .Unfollow {
+  background: #486991;
+  color: #fafafa;
+}
+
+@media (max-width: 635px) {
+  .contacts {
+    margin-top: 1px;
+  }
+
+  .photowrap {
+    height: 200px;
+    border: none;
+    margin-bottom: 2px;
+  }
+
+
+}
+
+
+

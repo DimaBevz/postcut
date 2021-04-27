@@ -1,0 +1,182 @@
+.settingPanel {
+    text-align: center;
+    background: #fafafa;
+    margin: 5px 0px 0px 5px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+.settingPanel button {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    color: #fafafa;
+    border: none;
+    outline: none;
+    background: #e5e5e5;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+button.navs {
+    font-weight: bold;
+    background: #507299;
+    color: #fafafa;
+    padding: 0 5px;
+}
+button.navs:hover {
+    font-weight: bold;
+    background: #224B7A;
+    color: #fafafa;
+    padding: 0 5px;
+}
+button.navs:active {
+    font-weight: bold;
+    background: #507299;
+    color: #fafafa;
+    padding: 0 5px;
+}
+
+button.navs:disabled {
+    background: #e5e5e5;
+}
+
+.settingPanel button.active{
+    background: #507299;
+    color: #fafafa;
+}
+
+.itemWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    width: 32.4%;
+    background: #fafafa;
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+@media (max-width: 635px) {
+    .item{
+        width: 50%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .settingPanel {
+        box-sizing: border-box;
+        margin: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .itemWrap{
+        margin-top: 49px;
+    }
+
+    .settingPanel button{
+        margin-bottom: 5px;
+    }
+
+}
+
+.item button{
+    bottom: 10px;
+    left: 54px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.item button:active{
+    bottom: 10px;
+    left: 54px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    outline: none;
+    background: none;
+}
+
+.item .buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.name h2{
+    word-wrap: break-word;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #486991;
+    line-height: 1.1;
+}
+.name h2:hover{
+    word-wrap: break-word;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #6494D2;
+    line-height: 1.1;
+}
+.name h2:active{
+    word-wrap: break-word;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #e5e5e5;
+    line-height: 1.1;
+}
+
+.status {
+    word-wrap: break-word;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+}
+
+
+button.follower{
+    border: 1px solid #507299;
+    color: #fafafa;
+    background: #507299;
+}
+
+button.follower:disabled{
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    color: #fafafa;
+}
+
+.getUsers {
+    outline: none;
+    background: #507299;
+    color: #ffffff;
+    padding: 7px 13px;
+    border: none;
+}
+
+

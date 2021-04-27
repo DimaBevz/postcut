@@ -1,0 +1,13 @@
+.Input {
+    background: lightgray;
+    padding: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.EditMode {
+    color: red;
+    font-size: 14px;
+    padding-top: 3px;
+} 

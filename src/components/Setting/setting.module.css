@@ -1,0 +1,52 @@
+.wrap h1 {
+    font-weight: 400;
+}
+
+.wrap .item {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    background: #fafafa;
+    margin-bottom: 10px;
+}
+
+.wrap .item h2{
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.LookingJob {
+    margin-top: 10px;
+}
+
+.LookingJob input {
+    margin-right: 5px;
+}
+
+.SubmitComtainer {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.Send {
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    color: #fafafa;
+    border: 1px solid #507299;
+    background: #507299;
+    cursor: pointer;
+}
+.Send:hover {
+    background: #486991;
+    color: #fafafa;
+}
+.Send:active {
+    background: #507299;
+    color: #fafafa;
+}
+
+.Processing img {
+    height: 30px;
+    width: 30px;
+}

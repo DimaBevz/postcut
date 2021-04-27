@@ -1,0 +1,279 @@
+header {
+    background: #507299;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2d4057;
+}
+
+.headerWrap {
+    color: #474B59;
+    max-width: 850px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside a {
+    text-decoration: none;
+}
+
+/* .leftside h1 {
+    font-weight: normal;
+    font-size: 1.9em;
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+.leftside h1 svg {
+    margin-right: 8px;
+} */
+.leftside .logo {
+    max-width: 110px;
+    margin-top: 8px;
+}
+.leftside .logo:active {
+    max-width: 110px;
+    margin-top: 10px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+}
+
+/* .rightside .input {
+    min-width: 220px;
+    padding: 8px 0px 8px 5px;
+    background: #F4F4F4;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.rightside input {
+    border: none;
+    outline: none;
+    background: #F4F4F4;
+    margin: 0 10px;
+} */
+
+.rightside .input {
+    min-width: 250px;
+    padding: 4px 0px 4px 5px;
+    background: url("../../img/images/search.png") no-repeat #224B7A;
+    background-position: 8px 8px; 
+    border-radius: 15px;
+    margin-right: 140px;
+}
+
+.rightside input {
+    border: none;
+    outline: none;
+    background: #224B7A;
+    color: #FAFAFA;
+    margin: 0 30px;
+}
+
+
+.rightside button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.rightside img {
+    display: block;
+    width: 15px;
+    height: 15px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+}
+
+.rightside .note {
+    font-size: 20px;
+    padding: 15px 5px;
+}
+
+
+
+.messages a {
+    text-decoration: none;
+}
+
+.messages {
+    position: relative;
+}
+
+.messages .newMessageCount{
+    background: red;
+    font-size: 0.5em;
+    height: 19px;
+    width: 19px;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 4px;
+}
+
+.rightside .heart {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    cursor: pointer;
+}
+
+.rightside .user {
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline;
+    cursor: pointer;
+}
+
+
+
+.profile_avatar {
+    padding: 15px 10px 15px 10px;
+}
+
+.rightside h3 {
+    font-weight: normal;
+    text-transform: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+.adaptivemenu{
+    display: none;
+}
+
+
+
+.input {
+    position: relative;
+}
+
+.Results {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid lightgray;
+    top: 40px;
+    min-width: 250px;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.Results a {
+    text-decoration: none;
+}
+
+.Results .Item {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+}
+
+.Results .Item>div {
+    margin-left: 10px;
+}
+
+.Results .Item p {
+    font-size: 13px;
+}
+
+.Results .Item h3 {
+    padding: 5px 0;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.adaptivemenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    padding:15px;
+    border-top: 1px solid lightgray;
+    z-index: 999;
+    display: none;
+}
+
+.adaptivemenu svg{
+    font-size: 20px;
+}
+
+@media (max-width: 635px) {
+    header {
+        margin: 0;
+    }
+
+    .adaptivemenu{
+        display: flex;
+    }
+
+    .headerWrap {
+       display: none;
+    }
+
+    .logout svg {
+        color: red;
+    }
+
+    .messages .newMessageCount{
+        top: -10px;
+        left: 8px
+    }
+
+    .input {
+        padding: 5px;
+        background: #fff;
+        display: flex;
+
+    }
+
+    .input button {
+        background: none;
+        outline: none;
+        border: none;
+        position: relative;
+        left: -25px;
+    }
+
+    .Search{
+       padding: 5px 3px;
+        width: 100%;
+        outline: none;
+    }
+
+    .Results {
+        box-sizing: border-box;
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .Results .Item {
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        padding: 8px 0;
+        margin: 5px;
+    }
+
+    .Results .Item img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+}
+
+

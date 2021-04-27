@@ -1,0 +1,172 @@
+.dialogList {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+}
+
+.dialogListHeader {
+    position: relative;
+}
+
+.dialogListHeader>svg {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.dialogs input {
+    margin: 5px 0px;
+    padding: 12px 25px 12px 10px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.searchDialog svg {
+    background: none;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.contactList {
+    overflow-y: scroll;
+    max-height: 76vh;
+}
+
+.contactList::-webkit-scrollbar {
+    background: #F4F4F4;
+    width: 4px;
+}
+
+.contactList::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 3px;
+}
+
+.contactList li{
+    display: flex;
+}
+
+.contactList p {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.dialogs ul li {
+    padding: 10px;
+    border-bottom: 4px solid #F4F4F4;
+}
+
+.dialogs ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.Notification {
+    height: 45px;
+    width: 45px;
+    background: lightgrey;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    z-index: 9999;
+
+}
+
+.Notification svg{
+    font-size: 23px;
+}
+
+.dialogListHeader {
+    border-bottom: 1px solid lightgray;
+}
+
+.dialogs button {
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+    left: -35px;
+}
+
+.dialogs ul li .avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightgray;
+}
+
+.lastMessage {
+    font-size: 0.7em;
+    display: inline-block;
+    color: gray;
+    padding: 0px 0px 0px 10px;
+}
+
+.DialogItem {
+    position: relative;
+}
+
+.newMessagesCount {
+    height: 30px;
+    width: 30px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: 19px;
+    font-size: 15px;
+}
+
+.newMessagesCount.active{
+    background: #2B5278;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar img{
+    height: 100% ;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+@media (max-width: 635px) {
+    .dialogList {
+        width: 100%;
+        border: none;
+        margin: 0;
+        position: fixed;
+        height: calc(100% - 52px);
+        left: 0;
+    }
+
+    .contactList {
+        overflow-y: scroll;
+        height: calc(100% - 3px);
+        background: #fff;
+        max-height: none;
+
+    }
+
+    .Notification{
+        position: fixed;
+        bottom: 52px;
+        right: 10px;
+    }
+
+}
+
+
